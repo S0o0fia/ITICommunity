@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-SignUp',
-  templateUrl: './SignUp.component.html',
-  styleUrls: ['./SignUp.component.scss']
+    selector: 'app-signup',
+    templateUrl: './signup.component.html',
+    styleUrls: ['./signup.component.scss']
 })
-export class SignUpComponent implements OnInit {
+export class SignupComponent implements OnInit {
+    test : Date = new Date();
+    focus;
+    focus1;
+    focus2;
+    constructor() { }
 
-  
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+    ngOnInit() {}
 }
